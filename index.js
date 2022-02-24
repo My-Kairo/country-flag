@@ -8,9 +8,8 @@ let list = '<ul>' + countries.map(function(country, index){
     return '<li>' + country + '  ' + '-' + '  ' + flags[index] + '</li>';
 }).join('') + '</ul>';
 
-// let list2 = flags.map(function(flag){
-//     return flag;
-// });
+let addCountry = [];
+
 
 
 
