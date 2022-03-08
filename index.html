@@ -1,38 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
-    <!-- loading icon library -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- loading icon library -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
+  <div class="content">
     <h1> Country Flag</h1>
 
-<div class="buttons">
-  <div class="sorting">
-    <button onclick="sorted()" value="sorting" class="sorting">Sort Countries</button>
+  <div class="buttons">
+    <div class="sorting">
+      <button type="button" onclick="sorted()" value="" class="sorting">Sort Countries</button>
     </div>
-  <div class="searching">
-    <input type="text" placeholder="search country here">
-    <input type="submit" value="search" name="search">
+    <div class="searching">
+      <input type="text" placeholder="search country here">
+      <button type="button" value="" name="search">Search</button>
+    </div>
   </div>
-</div>
-    <div class="display"></div>
+  <div class="add">
+    <input type="text" value="" placeholder="add country name" class="addText">
+    <input type="text" value="" class="flegz" placeholder="add country flag">
+    <button type="button" value="" class="addBtn">add</button>
 
-    <div class="flags">
-    </div>
+  </div>
+  <div class="display"></div>
 
-    <div>
-        <input type="text" value=""placeholder="Add another country here" class="addText">
-        <button type="button" value="" class="addBtn">add</button>
-    </div>
-    
+  <div class="flags">
+  </div>
+
+  
+  </div>
+
 </body>
 <script src="index.js"></script>
 <script src="factory.js"></script>
 <script src="https://www.w3schools.com/lib/w3.js"></script>
-</html> 
+
+</html>
