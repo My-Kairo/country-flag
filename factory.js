@@ -28,21 +28,12 @@ function FlagCountries(country){
             }
         }
     }
-    // function addTheCountries (name){
-    //     let names = name.charAt(0).toUppercase() + name.slice(1).lowerCase();
-    //     if(!flagz.include(names)){
-    //         flagz.push(names)
-    //     }else{
-    //         return
-    //     }
-    // }
     
 
     function getCountries (){
         return flagz;
     }
-    // countr = () => flagz;
-    // countr()
+    
 
     let search = countries.filter(countrry => countrry.flag);
 

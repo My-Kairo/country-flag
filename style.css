@@ -46,3 +46,19 @@ li {
     margin-bottom: 15px;
     
 }
+.countries {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+}
+.flags {
+    display: flex;
+    flex-direction: row;
+    width: 49%;
+}
+.display {
+    display: flex;
+    flex-direction: row;
+    width: 49%;
+}
